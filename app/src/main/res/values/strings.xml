@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Suit Game - Binar Challenge</string>
+    <string name="refresh_description">refresh button for restart game</string>
+    <string name="player_1">Pemain 1</string>
+    <string name="computer">COM</string>
+    <string name="paper">Kertas</string>
+    <string name="scissors">Gunting</string>
+    <string name="rock">Batu</string>
+    <string name="rock_button_desc">batu</string>
+    <string name="paper_button_desc">kertas</string>
+    <string name="scissors_button_desc">gunting</string>
+    <string name="initial_text_result">VS</string>
+    <string name="player_win_result">Pemain 1 \n MENANG</string>
+    <string name="com_win_result">Pemain 2 \n MENANG</string>
+    <string name="draw_result">DRAW</string>
+    <string-array name="on_boarding_titles">
+        <item>Bermain suit melawan sesama pemain</item>
+        <item>Bermain suit melawan komputer</item>
+        <item>Tuliskan namamu di bawah</item>
+    </string-array>
+
+    <string name="pvp_mode_desc">%1$s vs Pemain</string>
+    <string name="com_mode_desc">%1$s vs CPU</string>
+    <string name="dialog_result_text">Hasil Permainan</string>
+    <string name="dialog_play_again">Main Lagi</string>
+    <string name="dialog_back_menu">Kembali Ke Menu</string>
+    <string name="com_chosen_tv">%1$s Memilih %2$s</string>
+    <string name="game_mode_choose_text">PILIH LAWANMU</string>
+</resources>

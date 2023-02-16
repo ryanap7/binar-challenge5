@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GameModeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/outfit_semibold"
+        android:text="@string/game_mode_choose_text"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_view_pvp_mode"
+        android:layout_width="142dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:background="#0000"
+        android:src="@drawable/landing_page1" />
+
+    <TextView
+        android:id="@+id/tv_pvp_mode_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/outfit_semibold"
+        tools:text="Erwin vs Pemain"
+        android:textSize="18sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_view_com_mode"
+        android:layout_width="142dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:background="#0000"
+        android:src="@drawable/landing_page2" />
+
+    <TextView
+        android:id="@+id/tv_com_mode_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/outfit_semibold"
+        tools:text="Erwin vs CPU"
+        android:textSize="18sp" />
+</LinearLayout>
